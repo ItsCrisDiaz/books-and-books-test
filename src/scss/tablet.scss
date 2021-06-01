@@ -38,6 +38,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 5rem;
+    justify-items: stretch;
 
     & .button {
       margin-left: 0;
@@ -45,9 +46,18 @@
   }
 
   .footer__link-container {
+    --flow-space: 0;
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 25rem);
     gap: 3rem;
+    place-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer__social-media > * + * {
+    margin-top: 2rem;
   }
 }
 
@@ -59,10 +69,5 @@
 
   .footer {
     padding: 5rem 2rem;
-  }
-
-  .footer__link-container {
-    grid-template-columns: auto;
-    grid-auto-flow: column;
   }
 }

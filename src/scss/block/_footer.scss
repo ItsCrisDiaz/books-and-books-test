@@ -1,6 +1,7 @@
 .footer {
   --flow-space: 2rem;
   padding: 3rem 2rem 2rem;
+  color: var(--link-color);
 
   &__links ul {
     --flow-space: 1rem;
@@ -8,5 +9,10 @@
 
   &__social-media address {
     --flow-space: 1rem;
+  }
+
+  & span {
+    width: 4rem;
+    height: 4rem;
   }
 }

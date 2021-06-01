@@ -200,6 +200,26 @@ a {
   background-image: url("/src/img/icons/file.svg");
 }
 
+.twitter {
+  background-image: url("/src/img/icons/twitter.svg");
+}
+
+.facebook {
+  background-image: url("/src/img/icons/facebook.svg");
+}
+
+.instagram {
+  background-image: url("/src/img/icons/instagram.svg");
+}
+
+.linkedin {
+  background-image: url("/src/img/icons/linkedin.svg");
+}
+
+.pinterest {
+  background-image: url("/src/img/icons/pinterest.svg");
+}
+
 .center {
   text-align: center;
 }
@@ -336,12 +356,17 @@ a {
 .footer {
   --flow-space: 2rem;
   padding: 3rem 2rem 2rem;
+  color: var(--link-color);
 }
 .footer__links ul {
   --flow-space: 1rem;
 }
 .footer__social-media address {
   --flow-space: 1rem;
+}
+.footer span {
+  width: 4rem;
+  height: 4rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
