@@ -160,5 +160,23 @@ a {
   text-align: center;
   color: var(--red);
 }
+.header ul[role=list] {
+  font-weight: bold;
+}
+.header ul[role=list] > li + li {
+  margin-top: 1rem;
+}
+.header ul[role=list] li[role=list] {
+  padding: 0.7em;
+  text-align: center;
+  border-radius: 0.8rem;
+  transition-property: color, background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+.header ul[role=list] li[role=list]:hover {
+  color: var(--white);
+  background-color: var(--dark-grey);
+}
 
 /*# sourceMappingURL=index.css.map */
