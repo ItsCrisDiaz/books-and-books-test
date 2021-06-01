@@ -124,6 +124,10 @@ figcaption {
   padding-left: 2.2rem;
 }
 
+address {
+  font-style: normal;
+}
+
 button {
   border: 0;
 }
@@ -190,6 +194,10 @@ a {
 
 .read {
   background-image: url("/src/img/icons/file.svg");
+}
+
+.center {
+  text-align: center;
 }
 
 /* HEADER BLOCK */
@@ -319,6 +327,17 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.footer {
+  --flow-space: 2rem;
+  padding: 2rem;
+}
+.footer__links ul {
+  --flow-space: 1rem;
+}
+.footer__social-media address {
+  --flow-space: 1rem;
 }
 
 /*# sourceMappingURL=index.css.map */

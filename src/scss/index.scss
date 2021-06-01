@@ -17,6 +17,7 @@
 @use "./util/white-bg";
 @use "./util/flow";
 @use "./util/icon";
+@use "./util/center";
 
 //BLOCK
 
@@ -25,3 +26,4 @@
 @use "./block/articles";
 @use "./block/button";
 @use "./block/about-us";
+@use "./block/footer";
