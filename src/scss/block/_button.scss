@@ -13,4 +13,8 @@
     background-color: var(--light-grey);
     color: var(--dark-grey);
   }
+
+  &[data-size="smaller"] {
+    font-size: 2rem;
+  }
 }

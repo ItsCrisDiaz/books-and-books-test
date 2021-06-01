@@ -12,5 +12,10 @@
   &__button-container {
     --flow-space: 2rem;
     margin-top: 3.4rem;
+
+    & .button {
+      width: 100%;
+      max-width: 46rem;
+    }
   }
 }

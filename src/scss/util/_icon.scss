@@ -6,6 +6,11 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  vertical-align: -8%;
+
+  &[data-position="left"] {
+    margin-left: 0;
+  }
 }
 
 .right-arrow {
