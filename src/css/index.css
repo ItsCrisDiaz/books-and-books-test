@@ -104,6 +104,7 @@ h1,
 h2,
 h3 {
   font-weight: 900;
+  color: var(--dark-grey);
 }
 
 h1 {
@@ -289,6 +290,35 @@ a {
 }
 .button[data-size=smaller] {
   font-size: 2rem;
+}
+
+.about-us {
+  display: grid;
+  column-gap: 8.4rem;
+  row-gap: 2rem;
+  padding: 2rem;
+}
+.about-us__container {
+  --flow-space: 3rem;
+}
+.about-us__container img {
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+.about-us__container img + img {
+  margin-top: 2rem;
+}
+.about-us h3 {
+  font-size: 1.8rem;
+}
+.about-us h2 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+.about-us button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*# sourceMappingURL=index.css.map */
