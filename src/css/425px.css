@@ -1,0 +1,12 @@
+@media screen and (min-width: 425px) {
+  .about-us__image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .about-us__image-container img + img {
+    margin-top: 0;
+  }
+}
+
+/*# sourceMappingURL=425px.css.map */

@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"tablet.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/tablet.scss"],"names":[],"mappings":"AAAA;EACE;IACE;IACA;;EAEA;IACE;;EAEA;IACE;;;EAKN;IACE;IACA;IACA;;EAEA;IACE;;EAGF;IACE;;EAGF;IACE;;;EAIJ;IACE;;;EAGF;IACE;IACA;IACA;;EAEA;IACE;;;EAIJ;IACE;IACA;IACA;;;AAIJ;EACE;IACE;IACA;;;EAGF;IACE;;;EAGF;IACE;IACA","file":"tablet.css"}
