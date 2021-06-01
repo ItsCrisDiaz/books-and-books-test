@@ -1,0 +1,21 @@
+.icon {
+  display: inline-block;
+  margin: 0 0.5ch;
+  height: 1em;
+  width: 1em;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.right-arrow {
+  background-image: url("/src/img/icons/right-arrow.svg");
+}
+
+.question {
+  background-image: url("/src/img/icons/question-mark.svg");
+}
+
+.read {
+  background-image: url("/src/img/icons/file.svg");
+}
