@@ -8,6 +8,7 @@
   }
   .header ul[role=list] > li + li {
     margin-top: 0;
+    margin-left: 2rem;
   }
 
   .main {
