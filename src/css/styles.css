@@ -166,6 +166,10 @@ a {
   background-color: white;
 }
 
+.box-shadow {
+  box-shadow: 0 0.4rem 1rem rgba(105, 105, 105, 0.3);
+}
+
 .flow > * + * {
   margin-top: var(--flow-space, 1em);
 }
@@ -250,8 +254,8 @@ a {
 .articles {
   display: grid;
   column-gap: 3.4rem;
-  row-gap: 2rem;
-  padding: 2rem;
+  row-gap: 3rem;
+  padding: 3rem 2rem 2rem;
 }
 .articles figure {
   width: 100%;
@@ -331,7 +335,7 @@ a {
 
 .footer {
   --flow-space: 2rem;
-  padding: 2rem;
+  padding: 3rem 2rem 2rem;
 }
 .footer__links ul {
   --flow-space: 1rem;
@@ -340,4 +344,4 @@ a {
   --flow-space: 1rem;
 }
 
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=styles.css.map */
