@@ -1,0 +1,42 @@
+@use "../abstract/variables";
+
+html {
+  font-family: var(--text-font);
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url("/src/img/bg01.png");
+  background-repeat: repeat;
+}
+
+h1 {
+  font-size: var(--main-title-size);
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+figcaption {
+  font-size: 1.8rem;
+}
+
+button {
+  border: 0;
+}
+
+ul[role="list"] {
+  padding-left: 0;
+}
+
+p,
+button,
+li,
+a {
+  font-size: 1.4rem;
+}
+
+a {
+  color: var(--link-color);
+}
