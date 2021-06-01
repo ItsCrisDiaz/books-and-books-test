@@ -1,0 +1,40 @@
+.articles {
+  display: grid;
+  column-gap: 3.4rem;
+  row-gap: 2rem;
+  padding: 2rem;
+
+  & figure {
+    width: 100%;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    max-height: 56rem;
+    max-width: 44rem;
+    border-radius: 1rem;
+    overflow: hidden;
+
+    & img {
+      width: 100%;
+    }
+
+    & figcaption {
+      margin-top: -3rem;
+    }
+  }
+
+  &__text-container {
+    --flow-space: 2.4rem;
+    margin: 2rem 2.2rem 6.6rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .articles {
+    grid-auto-flow: column;
+  }
+}
