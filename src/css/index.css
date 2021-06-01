@@ -6,7 +6,7 @@
   --light-grey: rgb(242, 242, 242);
   --blue: rgb(21, 145, 196);
   --red: rgb(242, 69, 63);
-  --link-color: rgb(105, 105, 105)
+  --link-color: rgb(105, 105, 105);
   /* Fonts */
   --text-font: "Open Sans", sans-serif;
   /* Font sizes */
@@ -102,6 +102,8 @@ body {
 
 h1 {
   font-size: var(--main-title-size);
+  line-height: 1.2;
+  color: var(--dark-grey);
 }
 
 h3 {
@@ -150,6 +152,10 @@ a {
   background-color: white;
 }
 
+.flow > * + * {
+  margin-top: var(--flow-space, 1em);
+}
+
 /* HEADER BLOCK */
 .header {
   padding: 2rem;
@@ -177,6 +183,35 @@ a {
 .header ul[role=list] li[role=list]:hover {
   color: var(--white);
   background-color: var(--dark-grey);
+}
+
+/* MAIN BLOCK */
+.main {
+  padding: 2rem;
+}
+.main h2 {
+  font-size: 3.4rem;
+  font-weight: normal;
+  color: var(--link-color);
+}
+.main__button-container {
+  --flow-space: 2rem;
+  margin-top: 3.4rem;
+}
+
+.button {
+  font-size: 2.8rem;
+  padding: 0.85em;
+  font-weight: 900;
+  border-radius: 0.5em;
+}
+.button[data-color=blue] {
+  background-color: var(--blue);
+  color: var(--white);
+}
+.button[data-color=grey] {
+  background-color: var(--light-grey);
+  color: var(--dark-grey);
 }
 
 /*# sourceMappingURL=index.css.map */

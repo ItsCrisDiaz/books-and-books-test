@@ -1,0 +1,16 @@
+/* MAIN BLOCK */
+
+.main {
+  padding: 2rem;
+
+  & h2 {
+    font-size: 3.4rem;
+    font-weight: normal;
+    color: var(--link-color);
+  }
+
+  &__button-container {
+    --flow-space: 2rem;
+    margin-top: 3.4rem;
+  }
+}
