@@ -1,0 +1,11 @@
+/* HEADER BLOCK */
+.header {
+  padding: 2rem;
+
+  & h2 {
+    font-family: "Oleo Script", cursive;
+    font-size: var(--logo-size);
+    text-align: center;
+    color: var(--red);
+  }
+}
